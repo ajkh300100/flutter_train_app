@@ -1,0 +1,20 @@
+name: flutter_train_app
+description: A Flutter project
+
+publish_to: 'none' # Remove this line if you are publishing to pub.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  # 여기에 다른 의존성을 추가할 수 있습니다
+
+dev_dependencies:
+  flutter_lints: ^2.0.0 # lint 패키지 추가
+
+flutter:
+  uses-material-design: true
+
+environment:
+  sdk: ">=3.7.0 <4.0.0" # Dart SDK 버전 제약 추가
